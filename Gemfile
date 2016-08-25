@@ -41,6 +41,8 @@ gem 'hirb'
 
 gem 'rails_12factor', group: :production
 
+gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
